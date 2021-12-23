@@ -23,6 +23,11 @@ function isOdd(n) {
   return n % 2 == 1;
 }
 
+// if ( n%2!=0)  << 6reqa 1
+// return n % 2!= 0;  << 6reqa 2
+// {
+// console.log(isOdd(4)); <<
+
 /**
  * oddsSmallerThan(n):
  * - receives a number n
@@ -32,10 +37,10 @@ function isOdd(n) {
  * oddsSmallerThan(7) -> 3
  * oddsSmallerThan(15) -> 7
  */
-function oddsSmallerThan(n) {
-  if ((n = -1 / 2));
-  else n = num / 2;
-  return n * n;
+function oddsSmallerThan(n) {}
+if (isOdd) n;
+{
+  return (n - 1) / 2;
 }
 /**
  * squareOrDouble(n):
@@ -48,7 +53,9 @@ function oddsSmallerThan(n) {
  * squareOrDouble(9) -> 81
  */
 function squareOrDouble(n) {
-  // Your code here
+  isOdd(isOdd(n));
+  return n * n;
+  return n * 2;
 }
 
 module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
