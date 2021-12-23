@@ -37,10 +37,10 @@ function isOdd(n) {
  * oddsSmallerThan(7) -> 3
  * oddsSmallerThan(15) -> 7
  */
-function oddsSmallerThan(n) {}
-if (isOdd) n;
-{
-  return (n - 1) / 2;
+function oddsSmallerThan(n) {
+if (isOdd(n)); 
+return (n - 1) / 2;
+else return n / 2;
 }
 /**
  * squareOrDouble(n):
